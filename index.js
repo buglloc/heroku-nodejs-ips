@@ -9,6 +9,7 @@ express()
 req.ip: ${req.ip}
 req.ips: ${req.ips}
 `;
+    res.type('text/plain');
     res.send(out);
   })
   .listen(PORT, () => console.log(`Listening on ${ PORT }`));
