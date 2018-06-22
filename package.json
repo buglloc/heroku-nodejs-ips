@@ -1,0 +1,25 @@
+{
+  "name": "heroku-nodejs-ips",
+  "version": "0.0.1",
+  "description": "A simple Node.js app based on Express 4, which tries to get the client's IP",
+  "engines": {
+    "node": "10.5.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/node-js-getting-started"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}
